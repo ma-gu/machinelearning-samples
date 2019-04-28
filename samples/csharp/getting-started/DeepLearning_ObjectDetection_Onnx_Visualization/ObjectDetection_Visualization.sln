@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectDetection.Core", "ObjectDetection.Core\ObjectDetection.Core.csproj", "{67B3FBD4-FB09-4A9F-8A5B-F420150A129C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDetection.Forms", "ObjectDetection.Forms\ObjectDetection.Forms.csproj", "{F99DC8EF-87CF-47B3-BFB1-14E05A98AE8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{AE3D33EB-9721-4BDD-83F5-DE33B1E57BA3}"
+	ProjectSection(SolutionItems) = preProject
+		images\dog2.jpg = images\dog2.jpg
+		images\Intersection-Counts.jpg = images\Intersection-Counts.jpg
+		images\ManyPets.jpg = images\ManyPets.jpg
+		images\tags.tsv = images\tags.tsv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{C09CC48C-C450-42C1-8766-CDDEC39A42F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B3FBD4-FB09-4A9F-8A5B-F420150A129C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B3FBD4-FB09-4A9F-8A5B-F420150A129C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B3FBD4-FB09-4A9F-8A5B-F420150A129C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B3FBD4-FB09-4A9F-8A5B-F420150A129C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99DC8EF-87CF-47B3-BFB1-14E05A98AE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99DC8EF-87CF-47B3-BFB1-14E05A98AE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99DC8EF-87CF-47B3-BFB1-14E05A98AE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99DC8EF-87CF-47B3-BFB1-14E05A98AE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09CC48C-C450-42C1-8766-CDDEC39A42F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09CC48C-C450-42C1-8766-CDDEC39A42F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09CC48C-C450-42C1-8766-CDDEC39A42F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09CC48C-C450-42C1-8766-CDDEC39A42F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2591CF-DDCB-45BA-9916-9E38D79561E9}
+	EndGlobalSection
+EndGlobal
